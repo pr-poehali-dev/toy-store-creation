@@ -7,11 +7,18 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Логотип */}
-          <div className="flex items-center space-x-2">
-            <div className="text-2xl">🧸</div>
-            <h1 className="text-xl font-montserrat font-bold text-gray-900">
-              ТойЛенд
-            </h1>
+          <div className="flex items-center space-x-3">
+            <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-lg">
+              <Icon name="Factory" size={24} className="text-white" />
+            </div>
+            <div className="flex flex-col">
+              <h1 className="text-xl font-bold text-gray-900 leading-tight">
+                PolYana
+              </h1>
+              <span className="text-xs text-gray-500 font-medium tracking-wide">
+                INDUSTRIES
+              </span>
+            </div>
           </div>
 
           {/* Навигация */}
